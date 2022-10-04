@@ -17,12 +17,9 @@
     </div>
     <picture>
       <img src="images/museum-320_x_180.jpg" alt="image of museum"></a>
-      <img srcset="images/museum-320_x_180.jpg 320w,
-      images/museum-640_x_360.jpg 640w,
-      images/museum-960_x_540.jpg 960w,
-      sizes="(max-width: 960px
-      src="images/museum-320_x_180.jpg"
-      alt="image of museum">
+      <source srcset="images/museum-320_x_180.jpg" media="(max-width:320px)">
+      <source srcset="images/museum-640_x_360.jpg" media="(max-width:480px)">
+      <source srcset="images/museum-960_x540_.jpg" media="(max-width:720px)">
     </picture>
   </header>
 </body>
